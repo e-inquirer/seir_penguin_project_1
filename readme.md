@@ -14,23 +14,6 @@ Explain what is your project here, what does it do, etc.
 
 ## Challenges
 
-#### I have trouble with
+#### First Attempt at retrieving my data
 
-My code looked like this
-
-```js
-console.log("hello")
-```
-
-It was gibing me a problem... when it was fixed it looked like this:
-
-```
-console.log("goodbye")
-```
-
-#### Example Table
-
-| Column1 | Column2 |
-|---------|---------|
-| thing 1 | thing 2 |
-| yadda 1 | yadda 2 | 
+After my first attempt to retrieve my data using AJAX, I got an error page. After retracing my steps, I found out that I entered the wrong environment id in the URL. I had put ```main``` instead of ```master```.
